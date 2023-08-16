@@ -4,29 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <title>Age Calculator</title>
 </head>
 <body>
-    <div>
-        <input class="date-input" type="text" placeholder="DD">
-        <p class="date-input-error-message">dcdcdcdcdcd</p>
+
+    <div class="overAll-container">
+
+        <div class="date-input-container">
+            <div>
+                <p>DAY</p>
+                <input class="date-input" type="text" id="date-input" placeholder="DD">
+                <p class="y-error" id="day-error-message"></p>
+            </div>
+        
+            <div>
+                <p>MONTH</p>
+                <input class="date-input" type="text" id="month-input" placeholder="MM">
+                <p class="y-error" id="month-error-message"></p>
+            </div>
+        
+            <div>
+                <p class="label-text">YEAR</p>
+                <input class="date-input" type="text" id="year-input" placeholder="YYYY">
+                <p class="y-error" id="year-error-message"></p>
+            </div> 
+        </div>
+           
+        <div class="button-container">
+
+            <div class="button-container2">
+                <div class="line"></div>
+                <button class="submit-button" type="submit" id="submit-button"><img src="icon-arrow.svg" alt=""></button>
+            </div>
+            
+    
+            <p class="" id="years-text-display"> <span id="span-year">--</span>
+                years
+            </p>
+            <p id="months-text-display"><span id="month-span">--</span>
+                months
+            </p>
+            <p id="days-text-display"> <span id="days-span">--</span>
+                days
+            </p>
+    
+
+        </div>
+        
+
+
     </div>
-
-    <div>
-        <input class="month-input" type="text" placeholder="MM">
-        <p class="month-input-error-message">ddcdcddddd</p>
-    </div>
-
-    <div>
-        <input class="year-input" type="text" placeholder="YYYY">
-        <p class="year-input-error-message">asddsdaad</p>
-    </div>
-
-    <button class="Submit-button">
-        Submit
-    </button>
-
-
+    
+    
 
 
     <script src="index.js"></script>
