@@ -8,7 +8,7 @@ const submitBtnEl = document.querySelector('.Submit-button').addEventListener('c
 
 function displayMessage() {
     //checkDateIput()
-
+    
     const DateInputEl = document.querySelector('.date-input');
     const monthInputEl = document.querySelector('.month-input');
     const yearInput = document.querySelector('.year-input');
