@@ -38,7 +38,7 @@ body {
     border-radius: 5px;
     border: 1px solid gray;
     font-size: larger;
-    font-weight: bolder;
+    font-weight: 900;
     color: black;
 }
 
@@ -51,6 +51,7 @@ body {
 
 .date-input::placeholder {
     color: gray;
+    font-weight: 800;
 }
 
 .date-input:focus {
@@ -117,5 +118,9 @@ span {
     font-weight: 900;
     font-style: italic;
     line-height: 80px;
+}
+
+.m-label {
+    font-weight: bolder;
 }
 
